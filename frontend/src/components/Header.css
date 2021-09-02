@@ -1,0 +1,15 @@
+header{
+    grid-area:header;
+    background-color: #203040;
+}
+
+header a{
+    color:#ffffff;
+    padding: 1rem;
+}
+
+a.brand-logo{
+    color:#ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+}
