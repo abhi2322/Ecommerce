@@ -4,14 +4,15 @@ img {
 img.medium {
     max-width: 29rem;
     width: 100%;
-    /*height: 40vw;
-    width: 30vw;*/  /*to make cards uniform check later*/
     object-fit: cover;
+}
+img.larger {
+  width: 100%;
 }
   
 /* Card */
 .card {
-    border: 0.1rem #c0c0c0 solid;
+    border: .1rem #c0c0c0 solid;
     background-color: #f8f8f8;
     border-radius: 0.5rem;
     margin: 1rem;
@@ -29,4 +30,8 @@ img.medium {
   .rating span {
     color: #f0c040;
     margin: 0.1rem;
+  }
+
+  .rating span:last-child{
+    color:#404040;
   }

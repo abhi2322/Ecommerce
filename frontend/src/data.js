@@ -6,8 +6,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:4.5,
             numReviews:10,
             description:'high quality product'
         },
@@ -17,8 +18,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p1.jpg',
             price:120,
+            countInStock:0,
             brand:'Nike',
-            raitng:4.5,
+            rating:3.5,
             numReviews:10,
             description:'high quality product'
         },
@@ -28,8 +30,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:5,
             brand:'Nike',
-            raitng:4.5,
+            rating:5,
             numReviews:10,
             description:'high quality product'
         },
@@ -39,9 +42,10 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
-            numReviews:10,
+            rating:4,
+            numReviews:1,
             description:'high quality product'
         },
         {
@@ -50,8 +54,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:1,
             numReviews:10,
             description:'high quality product'
         },
@@ -61,8 +66,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:1.5,
             numReviews:10,
             description:'high quality product'
         },
@@ -72,8 +78,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:4.5,
             numReviews:10,
             description:'high quality product'
         },
@@ -83,8 +90,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p2.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:4.5,
             numReviews:10,
             description:'high quality product'
         },
@@ -94,8 +102,9 @@ const data ={
             catergory:'Shirts',
             image:'/image/p1.jpg',
             price:120,
+            countInStock:10,
             brand:'Nike',
-            raitng:4.5,
+            rating:4.5,
             numReviews:10,
             description:'high quality product'
         }
