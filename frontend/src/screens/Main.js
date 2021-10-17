@@ -11,22 +11,22 @@ export default function Main() {
   const {loading,error,products}=productList;
   useEffect(()=>{
     dispatch(listProducts());
-  },[]);
+  },[dispatch]);
     return (
-        <main>
             <div>
               {loading?<LoadingBox></LoadingBox>
               :
-              error?<ErrorBox variant="danger">{error}</ErrorBox>
+              error||(!Array.isArray(products))?<ErrorBox variant="danger">{error}</ErrorBox>  /* (!Array.isArray(products)) added it to handel the case
+                                                                                                when products is not a array */
               :
               <div className="row center">
                 {
                   products.map(product=>(
-                  <Product product={product}/>
-                ))}
+                  <Product id={product._id} product={product}/>
+                ))
+                }
               </div>
               }
               </div>
-        </main>
     );
 }
