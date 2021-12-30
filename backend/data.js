@@ -1,9 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data ={
+    users:[
+        {name:'Abhishek',
+        email:'abhishekjamwal34@gmail.com',
+        password:bcrypt.hashSync('1234',8),
+        isAdmin:true,
+        },
+        {name:'Tarun',
+        email:'tarunsingh021@gmail.com',
+        password:bcrypt.hashSync('qwerty',8),
+        isAdmin:false,
+        }
+
+    ],
     products: [
         {
-            _id:'1',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -13,9 +27,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'2',
             name:'Italian Shirt',
-            catergory:'Shirts',
+            category:'Shirts',
             image:'/image/p1.jpg',
             price:120,
             countInStock:0,
@@ -25,9 +38,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'3',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'french Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:5,
@@ -37,9 +49,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'4',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'indian Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -49,9 +60,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'5',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'American Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -61,9 +71,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'6',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'Japenesee Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -73,9 +82,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'7',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'Europe Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -85,9 +93,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'8',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'Dx Shirt',
+            category:'Shirts',
             image:'/image/p2.jpg',
             price:120,
             countInStock:10,
@@ -97,9 +104,8 @@ const data ={
             description:'high quality product'
         },
         {
-            _id:'9',
-            name:'Italian Shirt',
-            catergory:'Shirts',
+            name:'Nike Shirt',
+            category:'Shirts',
             image:'/image/p1.jpg',
             price:120,
             countInStock:10,

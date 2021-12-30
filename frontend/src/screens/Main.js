@@ -22,7 +22,7 @@ export default function Main() {
               <div className="row center">
                 {
                   products.map(product=>(
-                  <Product id={product._id} product={product}/>
+                  <Product key={product._id} product={product}/>
                 ))
                 }
               </div>

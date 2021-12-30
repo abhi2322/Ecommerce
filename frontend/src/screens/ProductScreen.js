@@ -63,7 +63,7 @@ export default function ProductScreen(props) {
                                                 <div>Status:</div>
                                                 <div>
                                                     {
-                                                        product.countInStock > 0 ? <span class="success">In Stock</span> :
+                                                        product.countInStock > 0 ? <span className="success">In Stock</span> :
                                                             <span className="error">Out of stock</span>
                                                     }
                                                 </div>
